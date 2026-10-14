@@ -10,7 +10,7 @@ hash = "ABAB4A29FBBA808C" # Default_mp-Alpha-NoWhitelistNoAC.xex (July 20 protot
 [[patch]]
     name = "Unlock all items"
     desc = "Every item and weapon option (camos, reticles) counts as unlocked, with unlock level 0."
-    author = "Claude"
+    author = "Wyatt"
     is_enabled = true
 
     # 0x825ce138 "everything unlocked?" check, used by IsItemLocked and
@@ -25,7 +25,7 @@ hash = "ABAB4A29FBBA808C" # Default_mp-Alpha-NoWhitelistNoAC.xex (July 20 protot
 [[patch]]
     name = "Purchase all items"
     desc = "Every item counts as bought, so nothing asks for unlock tokens."
-    author = "Claude"
+    author = "Wyatt"
     is_enabled = true
 
     # 0x825ce068 "everything purchased?" check, used by IsItemPurchased -> return 1
@@ -39,10 +39,10 @@ hash = "ABAB4A29FBBA808C" # Default_mp-Alpha-NoWhitelistNoAC.xex (July 20 protot
 [[patch]]
     name = "Allow modified fastfiles"
     desc = "Skips the RSA signature check on .ff files, so files edited by camotool load."
-    author = "Claude"
+    author = "Wyatt"
     is_enabled = true
 
-    # 0x822450d0 DB_CheckSignature: rsa_verify_hash over the fastfile's IV table -> return 1 (valid)
+    # 0x822450d0 DB_CheckSignature: rsa_verify_hash over the fastfile's IV table -> return 1 (valid) DOES NOT WORK
     [[patch.be32]]
         address = 0x822450d0
         value = 0x38600001 # li r3, 1
