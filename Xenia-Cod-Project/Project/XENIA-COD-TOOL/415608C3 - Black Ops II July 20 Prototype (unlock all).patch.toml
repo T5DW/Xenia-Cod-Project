@@ -1,0 +1,51 @@
+title_name = "Call of Duty: Black Ops II (July 20 2012 MP prototype)"
+title_id = "415608C3" # default_mp.xex
+hash = "ABAB4A29FBBA808C" # Default_mp-Alpha-NoWhitelistNoAC.xex (July 20 prototype), from Xenia log
+
+# Unlocks everything in multiplayer without levelling up: Create-a-Class,
+# weapons, attachments, perks and camos. This is the same switch the game
+# flips for itself in modes where everything is unlocked.
+# Keep this file next to the Xbox Live patch file; Xenia loads both.
+
+[[patch]]
+    name = "Unlock all items"
+    desc = "Every item and weapon option (camos, reticles) counts as unlocked, with unlock level 0."
+    author = "Claude"
+    is_enabled = true
+
+    # 0x825ce138 "everything unlocked?" check, used by IsItemLocked and
+    # GetWeaponOptionUnlockLvl/PLevel -> return 1
+    [[patch.be32]]
+        address = 0x825ce138
+        value = 0x38600001 # li r3, 1
+    [[patch.be32]]
+        address = 0x825ce13c
+        value = 0x4e800020 # blr
+
+[[patch]]
+    name = "Purchase all items"
+    desc = "Every item counts as bought, so nothing asks for unlock tokens."
+    author = "Claude"
+    is_enabled = true
+
+    # 0x825ce068 "everything purchased?" check, used by IsItemPurchased -> return 1
+    [[patch.be32]]
+        address = 0x825ce068
+        value = 0x38600001 # li r3, 1
+    [[patch.be32]]
+        address = 0x825ce06c
+        value = 0x4e800020 # blr
+
+[[patch]]
+    name = "Allow modified fastfiles"
+    desc = "Skips the RSA signature check on .ff files, so files edited by camotool load."
+    author = "Claude"
+    is_enabled = true
+
+    # 0x822450d0 DB_CheckSignature: rsa_verify_hash over the fastfile's IV table -> return 1 (valid)
+    [[patch.be32]]
+        address = 0x822450d0
+        value = 0x38600001 # li r3, 1
+    [[patch.be32]]
+        address = 0x822450d4
+        value = 0x4e800020 # blr
