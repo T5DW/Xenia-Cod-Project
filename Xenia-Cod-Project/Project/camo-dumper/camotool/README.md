@@ -1,4 +1,4 @@
-CAMOTOOL (camo-dumper) — by T5DW
+# CAMOTOOL (camo-dumper) — by T5DW
 Part of the Xenia-COD-Project.
 
 camotool finds your Black Ops II July 20 2012 MP prototype folder, exports its camo textures to PNG, and swaps them for your own images by rewriting common_mp.ff. It runs locally, offline, against your own copy of the game.
