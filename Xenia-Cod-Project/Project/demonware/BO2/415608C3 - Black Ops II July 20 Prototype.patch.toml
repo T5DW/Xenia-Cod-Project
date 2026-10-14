@@ -1,0 +1,94 @@
+title_name = "Call of Duty: Black Ops II (July 20 2012 MP prototype)"
+title_id = "415608C3" # default_mp.xex
+hash = "ABAB4A29FBBA808C" # Default_mp-Alpha-NoWhitelistNoAC.xex
+
+# This patch needs work so its not fully finsished but bypasses most stuff needed to get into the xbox lobby but the game does not let you in the xbox live lobby
+# The Xex im using is Default_mp-Alpha-NoWhitelistNoAC.xex find it in hidden palace!
+[[patch]]
+    name = "Report network cable connected"
+    desc = "XNetGetEthernetLinkStatus wrapper always returns 'link active', so ui_ethernetLinkActive stays 1."
+    author = "T5DW"
+    is_enabled = true
+
+    [[patch.be32]]
+        address = 0x826cd98c # was: b XNetGetEthernetLinkStatus (li r3,1 kept at 0x826cd988)
+        value = 0x4e800020   # blr  -> returns 1
+
+[[patch]]
+    name = "Treat local profile as signed in to Xbox Live"
+    desc = "Live_IsSignedInToLive checks now accept any signed-in profile (state 1 or 2) instead of only state 2."
+    author = "T5DW"
+    is_enabled = true
+
+    # 0x824e0db0 Live_IsSignedInToLive(controller): state==2  ->  state>0
+    [[patch.be32]]
+        address = 0x824e0dc4
+        value = 0x7ceb00d0 # neg r7, r11
+    [[patch.be32]]
+        address = 0x824e0dc8
+        value = 0x7ce65878 # andc r6, r7, r11
+    [[patch.be32]]
+        address = 0x824e0dcc
+        value = 0x54c30ffe # srwi r3, r6, 31
+
+    # 0x824e0e20 Live_IsUserSignedInToLive(controller): XUserGetSigninState()==2  ->  !=0
+    [[patch.be32]]
+        address = 0x824e0e60
+        value = 0x7d6300d0 # neg r11, r3
+    [[patch.be32]]
+        address = 0x824e0e64
+        value = 0x7d6a1878 # andc r10, r11, r3
+    [[patch.be32]]
+        address = 0x824e0e68
+        value = 0x55430ffe # srwi r3, r10, 31
+
+[[patch]]
+    name = "Allow multiplayer privilege"
+    desc = "Skips the XBOXLIVE_MPNOTALLOWED error: every Xbox Live privilege check (multiplayer, content, etc.) reports granted."
+    author = "T5DW"
+    is_enabled = true
+
+    # 0x82217670 Live_AllSignedInHaveMPPrivilege() -> return 1
+    [[patch.be32]]
+        address = 0x82217670
+        value = 0x38600001 # li r3, 1
+    [[patch.be32]]
+        address = 0x82217674
+        value = 0x4e800020 # blr
+
+    # 0x8265da80 XUserCheckPrivilege(user, privilege, &result) wrapper:
+    # always report "privilege granted" (result = 1, return ERROR_SUCCESS).
+    [[patch.be32]]
+        address = 0x8265da80
+        value = 0x39600001 # li r11, 1
+    [[patch.be32]]
+        address = 0x8265da84
+        value = 0x91650000 # stw r11, 0(r5)
+    [[patch.be32]]
+        address = 0x8265da88
+        value = 0x38600000 # li r3, 0
+    [[patch.be32]]
+        address = 0x8265da8c
+        value = 0x4e800020 # blr
+
+[[patch]]
+    name = "Skip 'Connecting to online services' (DemonWare)"
+    desc = "Menu functions IsDemonwareFetchingDone, AreStatsFetched and AnySignedInToLiveAndStatsFetched return true, so the button opens the Xbox Live flyout instead of waiting on DemonWare."
+    author = "T5DW"
+    is_enabled = true
+
+    [[patch.be32]]
+        address = 0x823ddcbc # IsDemonwareFetchingDone: bl Live_GetOnlineStatusFlags
+        value = 0x38600001   # li r3, 1
+    [[patch.be32]]
+        address = 0x823ddab0 # AreStatsFetched: bl Live_IsConnectedToDemonware
+        value = 0x38600001
+    [[patch.be32]]
+        address = 0x823ddac8 # AreStatsFetched: bl LiveStats_AreStatsFetched
+        value = 0x38600001
+    [[patch.be32]]
+        address = 0x823dda10 # AnySignedInToLiveAndStatsFetched: bl Live_IsConnectedToDemonware
+        value = 0x38600001
+    [[patch.be32]]
+        address = 0x823dda24 # AnySignedInToLiveAndStatsFetched: bl LiveStats_AreStatsFetched
+        value = 0x38600001
