@@ -1,0 +1,251 @@
+22:13:16 BO1 Live server 2.0 started
+22:13:16 Xenia api_address: http://26.157.40.172:36000/  (this PC: http://127.0.0.1:36000/)
+22:13:16 DemonWare lobby on TCP 1020, status page http://127.0.0.1:36000/
+22:13:16 Bots fill ranked matches up to 12 players (normal)
+22:15:16 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:15:18 [api] 26.157.40.172 asked for title servers of 41560855
+22:15:18 [dw] 26.157.40.172:51060 connected
+22:15:19 [dw] 26.157.40.172:51060: client header
+22:15:19 [dw] 26.157.40.172:51060: lobby hello
+22:15:19 [dw] 26.157.40.172:51060: bdTitleUtilities.getServerTime() -> 1 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getFile('CompressedMetPlayer3.info', 0x0009000057CBB726) -> error 1000
+22:15:19 [dw] 26.157.40.172:51060: bdGroup.setGroups(array[1]) -> 0 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdGroup.getGroupCounts(array[67]) -> 0 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getPublisherFile('ffotd_mp.ff') -> error 1000
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getPublisherFile('online_mp_english.wad') -> 1 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getPublisherFile('heatmap.raw') -> error 1000
+22:15:19 [dw] 26.157.40.172:51060: bdStats.readStatsByEntityID(5015, 0x0009000057CBB726) -> 0 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdCounter.getCounterTotals(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 300, 301, 302, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getFile('mpstatsCompressed', 0x0009000057CBB726) -> error 1000
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getFile('mpstatsBasicTraining', 0x0009000057CBB726) -> error 1000
+22:15:19 [dw] 26.157.40.172:51060: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdProfiles.setPublicInfo(2, blob[256]) -> 0 result(s)
+22:15:19 [dw]   saved mpstatsBasicTraining for 0009000057CBB726 (422 bytes)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.uploadFile('mpstatsBasicTraining', 0, blob[422]) -> 0 result(s)
+22:15:19 [dw]   saved mpstatsCompressed for 0009000057CBB726 (394 bytes)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.uploadFile('mpstatsCompressed', 0, blob[394]) -> 0 result(s)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.getFile('mpdatabk0000', 0x0009000057CBB726) -> error 1000
+22:15:19 [dw] 26.157.40.172:51060: bdStats.readStatsByEntityID(5014, 0x0009000057CBB726) -> 0 result(s)
+22:15:19 [dw]   saved mpdatabk0000 for 0009000057CBB726 (412 bytes)
+22:15:19 [dw] 26.157.40.172:51060: bdStorage.uploadFile('mpdatabk0000', 0, blob[412]) -> 0 result(s)
+22:15:30 [dw] 26.157.40.172:51060: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:15:31 [api] 26.157.40.172 hosted session ae00502e66dea4c2 (flags 0x29)
+22:15:31 [api] 26.157.40.172 hosted session ae00074f9f041c4b (flags 0x23)
+22:15:31 [dw]   saved mpstatsCompressed for 0009000057CBB726 (412 bytes)
+22:15:31 [dw] 26.157.40.172:51060: bdStorage.uploadFile('mpstatsCompressed', 0, blob[412]) -> 0 result(s)
+22:16:09 [api] 26.157.40.172 searched for matches: 0 here, 0 on other servers
+22:16:09 [api] 26.157.40.172 searched for matches: 0 here, 0 on other servers
+22:16:09 [api] 26.157.40.172 hosted session ae00ed9df941bf34 (flags 0x3F)
+22:16:19 [dw] 26.157.40.172:51060: bdGroup.setGroups(array[2]) -> 0 result(s)
+22:16:35 [dw] 26.157.40.172:51060: bdPooledStorage.task5('dm_mp_duga_10_15_2026_4_16.demo', 1, array[0]) -> 0 result(s)
+22:17:42 [dw] 26.157.40.172:51060: bdStats.readStatsByEntityID(1401, 0x0009000057CBB726) -> 0 result(s)
+22:17:42 [dw] 26.157.40.172:51060: bdStats.readStatsByEntityID(1801, 0x0009000057CBB726) -> 0 result(s)
+22:17:42 [dw] 26.157.40.172:51060: bdStats.writeStats(3000, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 0, 65, 0, 0, 0, 0, 0, 0, 0, 3001, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3002, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3003, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:17:42 [dw]   saved mpstatsCompressed for 0009000057CBB726 (584 bytes)
+22:17:42 [dw] 26.157.40.172:51060: bdStorage.uploadFile('mpstatsCompressed', 0, blob[584]) -> 0 result(s)
+22:17:42 [dw] 26.157.40.172:51060: bdStats.writeStats(1401, 0x0009000057CBB726, 1, 0x0000000000000000, 1, 0, 65, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:17:42 [dw] 26.157.40.172:51060: bdStats.writeStats(1801, 0x0009000057CBB726, 1, 0x0000000000000000, 1, 0, 65, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:17:43 [api] 26.157.40.172 hosted session ae0070006ff2fc9f (flags 0x23)
+22:17:57 [dw] 26.157.40.172:51060: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:18:00 [api] 26.157.40.172 hosted session ae00e746a044e793 (flags 0x29)
+22:18:00 [api] 26.157.40.172 hosted session ae00cfdfea788406 (flags 0x23)
+22:18:01 [api] 26.157.40.172 hosted session ae005f889008fa24 (flags 0x27)
+22:18:14 [api] 26.157.40.172 hosted session ae00c9de22c778fb (flags 0x23)
+22:18:17 [api] 26.157.40.172 hosted session ae00e348c03762be (flags 0x29)
+22:18:17 [api] 26.157.40.172 hosted session ae0046a6c4e949ac (flags 0x23)
+22:18:17 [api] 26.157.40.172 hosted session ae004e23feab2c20 (flags 0x27)
+22:18:17 [dw]   saved mpstatsBasicTraining for 0009000057CBB726 (422 bytes)
+22:18:17 [dw] 26.157.40.172:51060: bdStorage.uploadFile('mpstatsBasicTraining', 0, blob[422]) -> 0 result(s)
+22:18:54 [dw] 26.157.40.172:51060: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:18:54 [dw] 26.157.40.172:64093 connected
+22:18:54 [dw] 26.157.40.172:64093: client header
+22:18:54 [dw] 26.157.40.172:64093: lobby hello
+22:18:54 [dw] 26.157.40.172:64093: bdTitleUtilities.getServerTime() -> 1 result(s)
+22:18:54 [dw] 26.157.40.172:64093: bdStorage.getFile('mpstatsCompressed', 0x0009000054B61465) -> error 1000
+22:18:54 [dw] 26.157.40.172:64093: bdStorage.getFile('mpstatsBasicTraining', 0x0009000054B61465) -> error 1000
+22:18:54 [dw] 26.157.40.172:64093: bdStorage.getFile('CompressedMetPlayer3.info', 0x0009000054B61465) -> error 1000
+22:18:54 [dw] 26.157.40.172:64093: bdProfiles.getPublicInfos(0x0009000054B61465) -> 0 result(s)
+22:18:54 [dw] 26.157.40.172:64093: bdStats.readStatsByEntityID(5015, 0x0009000054B61465) -> 0 result(s)
+22:18:54 [dw] 26.157.40.172:64093: bdGroup.setGroups(array[1]) -> 0 result(s)
+22:18:55 [dw] 26.157.40.172:64093: bdProfiles.setPublicInfo(2, blob[256]) -> 0 result(s)
+22:18:55 [dw]   saved mpstatsBasicTraining for 0009000054B61465 (420 bytes)
+22:18:55 [dw] 26.157.40.172:64093: bdStorage.uploadFile('mpstatsBasicTraining', 0, blob[420]) -> 0 result(s)
+22:18:55 [dw]   saved mpstatsCompressed for 0009000054B61465 (392 bytes)
+22:18:55 [dw] 26.157.40.172:64093: bdStorage.uploadFile('mpstatsCompressed', 0, blob[392]) -> 0 result(s)
+22:18:55 [dw] 26.157.40.172:64093: bdStorage.getFile('mpdatabk0000', 0x0009000054B61465) -> error 1000
+22:18:55 [dw] 26.157.40.172:64093: bdStats.readStatsByEntityID(5014, 0x0009000054B61465) -> 0 result(s)
+22:18:55 [dw]   saved mpdatabk0000 for 0009000054B61465 (412 bytes)
+22:18:55 [dw] 26.157.40.172:64093: bdStorage.uploadFile('mpdatabk0000', 0, blob[412]) -> 0 result(s)
+22:18:55 [dw] 26.157.40.172:64093 disconnected
+22:18:55 [dw] 26.157.40.172:51060: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:19:02 [dw] 26.157.40.172:51060: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:19:02 [dw] 26.157.40.172:64094 connected
+22:19:02 [dw] 26.157.40.172:64094: client header
+22:19:02 [dw] 26.157.40.172:64094: lobby hello
+22:19:02 [dw] 26.157.40.172:64094: bdTitleUtilities.getServerTime() -> 1 result(s)
+22:19:02 [dw] 26.157.40.172:64094: bdStorage.getFile('mpstatsCompressed', 0x0009000054B61465) -> 1 result(s)
+22:19:02 [dw] 26.157.40.172:64094: bdStorage.getFile('mpstatsBasicTraining', 0x0009000054B61465) -> 1 result(s)
+22:19:02 [dw] 26.157.40.172:64094: bdProfiles.getPublicInfos(0x0009000054B61465) -> 0 result(s)
+22:19:02 [dw] 26.157.40.172:64094: bdStats.readStatsByEntityID(5015, 0x0009000054B61465) -> 0 result(s)
+22:19:02 [dw] 26.157.40.172:64094: bdDML.recordIP(446507180) -> 0 result(s)
+22:19:02 [dw]   saved mpstatsCompressed for 0009000054B61465 (450 bytes)
+22:19:02 [dw] 26.157.40.172:64094: bdStorage.uploadFile('mpstatsCompressed', 0, blob[450]) -> 0 result(s)
+22:19:02 [dw] 26.157.40.172:64094: bdStats.readStatsByEntityID(5014, 0x0009000054B61465) -> 0 result(s)
+22:19:03 [dw] 26.157.40.172:51060: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:19:03 [api] 26.157.40.172 hosted session ae00bbfc726f090e (flags 0x29)
+22:19:04 [api] 26.157.40.172 hosted session ae009d50453e0273 (flags 0x23)
+22:19:30 [api] 26.157.40.172 hosted session ae005b80487b4937 (flags 0x27)
+22:19:30 [dw]   saved mpstatsCompressed for 0009000054B61465 (463 bytes)
+22:19:30 [dw] 26.157.40.172:64094: bdStorage.uploadFile('mpstatsCompressed', 0, blob[463]) -> 0 result(s)
+22:19:30 [dw]   saved mpstatsBasicTraining for 0009000054B61465 (428 bytes)
+22:19:30 [dw] 26.157.40.172:64094: bdStorage.uploadFile('mpstatsBasicTraining', 0, blob[428]) -> 0 result(s)
+22:19:31 [api] 26.157.40.172 hosted session ae009bd7c20c2cd2 (flags 0x23)
+22:19:32 [dw] 26.157.40.172:64094: bdContentStreaming.task2(0x0009000054B61465, 0, 20, 0, 0) -> 0 result(s)
+22:19:32 [api] 26.157.40.172 hosted session ae00470b19db0d33 (flags 0x29)
+22:19:32 [api] 26.157.40.172 hosted session ae0026445692e2ae (flags 0x23)
+22:19:42 [dw] 26.157.40.172:51060: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:19:42 [api] 26.157.40.172 hosted session ae00c0fada243aec (flags 0x29)
+22:19:42 [api] 26.157.40.172 hosted session ae004e31d9d3a1a8 (flags 0x23)
+22:19:50 [api] 26.157.40.172 searched for matches: 0 here, 0 on other servers
+22:19:51 [api] 26.157.40.172 searched for matches: 0 here, 0 on other servers
+22:19:51 [api] 26.157.40.172 hosted session ae00953612918e41 (flags 0x3F)
+22:19:55 [dw] 26.157.40.172:64094: bdGroup.setGroups(array[2]) -> 0 result(s)
+22:20:03 [dw] 26.157.40.172:64094: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:20:10 [dw] 26.157.40.172:51060 disconnected
+22:20:11 [dw] 26.157.40.172:64094 disconnected
+22:40:36 BO1 Live server 2.0 started
+22:40:36 Xenia api_address: http://26.157.40.172:36000/  (this PC: http://127.0.0.1:36000/)
+22:40:36 DemonWare lobby on TCP 1020, status page http://127.0.0.1:36000/
+22:40:36 Bots fill ranked matches up to 12 players (normal)
+22:41:38 server stopped
+22:41:38 BO1 Live server 2.0 started
+22:41:38 Xenia api_address: http://26.157.40.172:36000/  (this PC: http://127.0.0.1:36000/)
+22:41:38 DemonWare lobby on TCP 1020, status page http://127.0.0.1:36000/
+22:41:38 Bots fill ranked matches up to 12 players (normal)
+22:41:54 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:41:56 [api] 26.157.40.172 asked for title servers of 41560855
+22:41:56 [dw] 26.157.40.172:60698 connected
+22:41:56 [dw] 26.157.40.172:60698: client header
+22:41:56 [dw] 26.157.40.172:60698: lobby hello
+22:41:56 [dw] 26.157.40.172:60698: bdTitleUtilities.getServerTime() -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getFile('CompressedMetPlayer3.info', 0x0009000057CBB726) -> error 1000
+22:41:56 [dw] 26.157.40.172:60698: bdGroup.setGroups(array[1]) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdGroup.getGroupCounts(array[67]) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getPublisherFile('ffotd_mp.ff') -> error 1000
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getPublisherFile('online_mp_english.wad') -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getPublisherFile('heatmap.raw') -> error 1000
+22:41:56 [dw] 26.157.40.172:60698: bdStats.readStatsByEntityID(5015, 0x0009000057CBB726) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdCounter.getCounterTotals(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 300, 301, 302, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getFile('mpstatsCompressed', 0x0009000057CBB726) -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60699 connected
+22:41:56 [dw] 26.157.40.172:60699: client header
+22:41:56 [dw] 26.157.40.172:60699: lobby hello
+22:41:56 [dw] 26.157.40.172:60699: bdStorage.getFile('mpstatsCompressed', 0x0009000054B61465) -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdStorage.getFile('mpstatsBasicTraining', 0x0009000054B61465) -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdStorage.getFile('CompressedMetPlayer3.info', 0x0009000054B61465) -> error 1000
+22:41:56 [dw] 26.157.40.172:60699: bdProfiles.getPublicInfos(0x0009000054B61465) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdStats.readStatsByEntityID(5015, 0x0009000054B61465) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdGroup.setGroups(array[1]) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getFile('mpstatsBasicTraining', 0x0009000057CBB726) -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdDML.recordIP(446507180) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdProfiles.setPublicInfo(2, blob[256]) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdDML.recordIP(446507180) -> 0 result(s)
+22:41:56 [dw]   saved mpstatsCompressed for 0009000057CBB726 (632 bytes)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.uploadFile('mpstatsCompressed', 0, blob[632]) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStats.readStatsByEntityID(5014, 0x0009000057CBB726) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdProfiles.setPublicInfo(2, blob[256]) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdStorage.getFile('mpdatabk0000', 0x0009000054B61465) -> 1 result(s)
+22:41:56 [dw] 26.157.40.172:60699: bdStats.readStatsByEntityID(5014, 0x0009000054B61465) -> 0 result(s)
+22:41:56 [dw] 26.157.40.172:60698: bdStorage.getFile('mpdatabk0000', 0x0009000057CBB726) -> 1 result(s)
+22:41:56 [dw]   saved mpstatsCompressed for 0009000054B61465 (462 bytes)
+22:41:56 [dw] 26.157.40.172:60699: bdStorage.uploadFile('mpstatsCompressed', 0, blob[462]) -> 0 result(s)
+22:41:58 [dw]   saved mpdatabk0000 for 0009000057CBB726 (631 bytes)
+22:41:58 [dw] 26.157.40.172:60698: bdStorage.uploadFile('mpdatabk0000', 0, blob[631]) -> 0 result(s)
+22:41:58 [dw]   saved mpdatabk0000 for 0009000054B61465 (466 bytes)
+22:41:58 [dw] 26.157.40.172:60699: bdStorage.uploadFile('mpdatabk0000', 0, blob[466]) -> 0 result(s)
+22:42:01 [dw] 26.157.40.172:60698: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:42:17 [api] 26.157.40.172 hosted session ae00de6dc10a44c4 (flags 0x29)
+22:42:17 [api] 26.157.40.172 hosted session ae00f840535efba8 (flags 0x23)
+22:42:18 [dw]   saved mpstatsCompressed for 0009000057CBB726 (631 bytes)
+22:42:18 [dw] 26.157.40.172:60698: bdStorage.uploadFile('mpstatsCompressed', 0, blob[631]) -> 0 result(s)
+22:42:18 [dw]   saved mpstatsCompressed for 0009000054B61465 (466 bytes)
+22:42:18 [dw] 26.157.40.172:60699: bdStorage.uploadFile('mpstatsCompressed', 0, blob[466]) -> 0 result(s)
+22:42:28 [api] 26.157.40.172 searched for matches: 0 here, 0 on other servers
+22:42:28 [api] 26.157.40.172 searched for matches: 0 here, 0 on other servers
+22:42:28 [api] 26.157.40.172 hosted session ae00ccd6d3c31f1a (flags 0x3F)
+22:42:53 [dw] 26.157.40.172:60698: bdPooledStorage.task5('tdm_mp_nuked_10_15_2026_4_42.demo', 1, array[0]) -> 0 result(s)
+22:43:45 [dw] 26.157.40.172:60698: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:43:46 [dw] 26.157.40.172:60698: bdStats.readStatsByEntityID(1400, 0x0009000057CBB726) -> 0 result(s)
+22:43:46 [dw] 26.157.40.172:60698: bdStats.readStatsByEntityID(1800, 0x0009000057CBB726) -> 0 result(s)
+22:43:46 [dw] 26.157.40.172:60698: bdStats.writeStats(3000, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 0, 103, 0, 0, 0, 0, 0, 0, 0, 3001, 0x0009000057CBB726, 0, 0x0000000000000001, 1, 1, 1000, 1, 0, 0, 0, 0, 0, 0, 3002, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3003, 0x0009000057CBB726, 0, 0x0000000000000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:43:46 [dw]   saved mpstatsCompressed for 0009000057CBB726 (790 bytes)
+22:43:46 [dw] 26.157.40.172:60698: bdStorage.uploadFile('mpstatsCompressed', 0, blob[790]) -> 0 result(s)
+22:43:46 [dw] 26.157.40.172:60698: bdStats.writeStats(1400, 0x0009000057CBB726, 1, 0x0000000000000000, 1, 0, 38, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:43:46 [dw] 26.157.40.172:60698: bdStats.writeStats(1800, 0x0009000057CBB726, 1, 0x0000000000000000, 1, 0, 38, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:43:47 [dw] 26.157.40.172:60698: bdGroup.setGroups(array[2]) -> 0 result(s)
+22:43:47 [api] 26.157.40.172 hosted session ae00e7524d5f739d (flags 0x23)
+22:44:11 [api] 26.157.40.172 hosted session ae00730ebd5b6d25 (flags 0x27)
+22:44:17 [api] 26.157.40.172 hosted session ae00127f4f90f335 (flags 0x23)
+22:44:24 [api] 26.157.40.172 hosted session ae002ffdf96c1103 (flags 0x29)
+22:44:24 [api] 26.157.40.172 hosted session ae00ecd0e0c69d18 (flags 0x23)
+22:44:25 [api] 26.157.40.172 hosted session ae0068ff9049d462 (flags 0x27)
+22:44:27 [dw] 26.157.40.172:60698: bdTags.task5(1, 0, 100, 1, array[2]) -> 0 result(s)
+22:44:32 [api] 26.157.40.172 hosted session ae006e7f82df6f7b (flags 0x23)
+22:44:36 [api] 26.157.40.172 hosted session ae007e726244aeb4 (flags 0x29)
+22:44:36 [api] 26.157.40.172 hosted session ae00f9a0e8897a8f (flags 0x23)
+22:44:37 [api] 26.157.40.172 hosted session ae003ebf39789d02 (flags 0x27)
+22:44:39 [api] 26.157.40.172 hosted session ae00afc267769f0f (flags 0x23)
+22:45:00 [dw] 26.157.40.172:60698: bdContentStreaming.task2(0x0009000057CBB726, 0, 20, 0, 0) -> 0 result(s)
+22:45:01 [api] 26.157.40.172 hosted session ae00691f482d94ca (flags 0x29)
+22:45:01 [api] 26.157.40.172 hosted session ae0090d0e96c96cf (flags 0x23)
+22:45:23 [dw] 26.157.40.172:60699 disconnected
+22:45:23 [dw] 26.157.40.172:60698 disconnected
+22:46:39 server stopped
+22:47:27 BO1 Live server 2.0 started
+22:47:27 Xenia api_address: http://26.157.40.172:36000/  (this PC: http://127.0.0.1:36000/)
+22:47:27 DemonWare lobby on TCP 1020, status page http://127.0.0.1:36000/
+22:47:27 Bots fill ranked matches up to 12 players (normal)
+22:47:36 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:47:38 [api] 26.157.40.172 asked for title servers of 41560855
+22:47:38 [dw] 26.157.40.172:58386 connected
+22:47:38 [dw] 26.157.40.172:58386: client header
+22:47:38 [dw] 26.157.40.172:58386: lobby hello
+22:47:38 [dw] 26.157.40.172:58386: bdTitleUtilities.getServerTime() -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getFile('CompressedMetPlayer3.info', 0x0009000057CBB726) -> error 1000
+22:47:38 [dw] 26.157.40.172:58386: bdGroup.setGroups(array[1]) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdGroup.getGroupCounts(array[67]) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getPublisherFile('ffotd_mp.ff') -> error 1000
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getPublisherFile('online_mp_english.wad') -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getPublisherFile('heatmap.raw') -> error 1000
+22:47:38 [dw] 26.157.40.172:58386: bdStats.readStatsByEntityID(5015, 0x0009000057CBB726) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdCounter.getCounterTotals(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 300, 301, 302, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getFile('mpstatsCompressed', 0x0009000057CBB726) -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getFile('mpstatsBasicTraining', 0x0009000057CBB726) -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdProfiles.getPublicInfos(0x0009000057CBB726) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdProfiles.setPublicInfo(2, blob[256]) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdDML.recordIP(446507180) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58386: bdStorage.getFile('mpdatabk0000', 0x0009000057CBB726) -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58387 connected
+22:47:38 [dw] 26.157.40.172:58387: client header
+22:47:38 [dw] 26.157.40.172:58387: lobby hello
+22:47:38 [dw] 26.157.40.172:58387: bdStorage.getFile('mpstatsCompressed', 0x0009000054B61465) -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58387: bdStorage.getFile('mpstatsBasicTraining', 0x0009000054B61465) -> 1 result(s)
+22:47:38 [dw] 26.157.40.172:58387: bdStorage.getFile('CompressedMetPlayer3.info', 0x0009000054B61465) -> error 1000
+22:47:38 [dw] 26.157.40.172:58387: bdProfiles.getPublicInfos(0x0009000054B61465) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58387: bdStats.readStatsByEntityID(5015, 0x0009000054B61465) -> 0 result(s)
+22:47:38 [dw] 26.157.40.172:58387: bdGroup.setGroups(array[1]) -> 0 result(s)
+22:47:39 [dw] 26.157.40.172:58387: bdProfiles.setPublicInfo(2, blob[256]) -> 0 result(s)
+22:47:39 [dw] 26.157.40.172:58387: bdDML.recordIP(446507180) -> 0 result(s)
+22:47:39 [dw] 26.157.40.172:58387: bdStorage.getFile('mpdatabk0000', 0x0009000054B61465) -> 1 result(s)
+22:47:40 [dw]   saved mpdatabk0000 for 0009000057CBB726 (786 bytes)
+22:47:40 [dw] 26.157.40.172:58386: bdStorage.uploadFile('mpdatabk0000', 0, blob[786]) -> 0 result(s)
+22:47:41 [dw]   saved mpdatabk0000 for 0009000054B61465 (466 bytes)
+22:47:41 [dw] 26.157.40.172:58387: bdStorage.uploadFile('mpdatabk0000', 0, blob[466]) -> 0 result(s)
+22:47:48 [dw] 26.157.40.172:58387 disconnected
+22:47:48 [dw] 26.157.40.172:58386 disconnected
+22:54:03 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:54:10 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:54:18 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:54:30 [api] player bimbo (0009000057CBB726) signed in from 26.157.40.172
+22:57:22 server stopped
