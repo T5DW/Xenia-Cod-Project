@@ -1,0 +1,6 @@
+; Exports for the d3d11.dll proxy. These are the entry points Ghosts imports
+; from d3d11.dll; our wrappers in d3d11_proxy.cpp forward them to the real DLL.
+; If a game's import table needs more d3d11 exports, add a wrapper + a line here.
+EXPORTS
+    D3D11CreateDevice
+    D3D11CreateDeviceAndSwapChain
